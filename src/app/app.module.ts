@@ -11,7 +11,7 @@ import { Lazy1Component } from './components/lazy1.component';
     Lazy1Component
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     FormsModule
   ],
   providers: [],
